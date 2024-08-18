@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite ProjectFinal" verbose="1">
+    <test name="Login">
+        <classes>
+            <class name="com.thaonth.testcases.LoginTest"/>
+        </classes>
+    </test>
+    <test name="Dashboard">
+        <classes>
+            <class name="com.thaonth.testcases.DashboardTest"/>
+        </classes>
+    </test>
+    <test name="Category">
+        <classes>
+            <class name="com.thaonth.testcases.CategoryTest"/>
+        </classes>
+    </test>
+    <test name="New Category">
+        <classes>
+            <class name="com.thaonth.testcases.AddNewCategoryTest"/>
+        </classes>
+    </test>
+</suite>
