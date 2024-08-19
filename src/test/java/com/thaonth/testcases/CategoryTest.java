@@ -39,6 +39,7 @@ public class CategoryTest extends BaseTest {
 
     }
 
+    @Test
     public void deleteCategoryByClickCancelButtonInConfirmationDelete(){
         loginPage = new LoginPage(driver);
         dashboardPage = loginPage.loginCMS(EMAIL, PASSWORD);

@@ -7,6 +7,7 @@ import com.thaonth.pages.CategoryPage;
 import com.thaonth.pages.DashboardPage;
 import com.thaonth.pages.LoginPage;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class AddNewCategoryTest extends BaseTest {
@@ -28,6 +29,7 @@ public class AddNewCategoryTest extends BaseTest {
 
 
     @Test
+//    @Parameters({"nameCategory", "parentCategory", "orderingNo", "type", "metaTitle", "meteDescription", "attribute"})
     public void createNewParentCategory(){
         loginPage = new LoginPage(driver);
         dashboardPage = loginPage.loginCMS(EMAIL, PASSWORD);
